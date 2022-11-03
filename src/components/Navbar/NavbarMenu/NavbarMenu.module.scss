@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.link {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: "Roboto",sans-serif;
+
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+}
+
+.link:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.link.isActive {
+    color: #fff;
+    background-color: #1976d2;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: "Roboto",sans-serif;
+}
